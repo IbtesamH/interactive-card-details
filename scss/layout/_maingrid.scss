@@ -1,0 +1,26 @@
+.main-container {
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+    font-family: $ff-primary;
+    font-size: $fs-normal;
+}
+
+#cards {
+    width: 30%;
+    height: 100vh;
+    background-image: url(/images/bg-main-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#form {
+    width: 70%;
+    height: 100vh;
+}
+
+.attribution {
+    margin-top: 1em;
+    margin-left: 2em;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+//font-size
+$fs-normal: 12px;
+$fs-small: 10px;
+$fs-large: 24px;
+
+
+//font family
+$ff-primary: 'Space Grotesk', sans-serif;
+
+//font-weight
+$fw-normal: 500;
+
+.large {
+    font-size: $fs-large;
+}
+
+.normal {
+    font-size: $fs-normal;
+}
+
+.small {
+    font-size: $fs-small;
+}

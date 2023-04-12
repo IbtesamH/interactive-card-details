@@ -1,0 +1,159 @@
+@media only screen and (max-width: $tablet) {
+    #card-number {
+        font-size: 20px;
+    }
+
+    #card-logo {
+        margin-bottom: 7em;
+    }
+}
+
+@media only screen and (max-width: 1190px) {
+    .card-front,
+    #card-back {
+        width: 120%;
+    }
+
+    #card-back-number {
+        right: -30%;
+    }
+}
+
+@media only screen and (max-width: 995px) {
+    #card-back-number {
+        top: 31em;
+    }
+
+    #card-number {
+        font-size: 16px;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+    }
+}
+
+@media only screen and (max-width: $mobile) {
+    .main-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #cards,
+    #form {
+        width: 100vw;
+    }
+
+    #cards {
+        height: 40vh;
+        background-image: url(/images/bg-main-mobile.png);
+        background-size: cover;
+    }
+
+    #form {
+        height: 60vh;
+    }
+
+
+    #cards-container {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .card-front,
+    .card-back {
+        width: 55%;  
+        height: 15em;  
+    }
+
+    #card-back {
+        width: 100%;
+        height: 100%;
+        left: 0;    
+    }
+
+    .card-front {
+        position: absolute;
+        left: 2em;
+        bottom: -5em;
+        background-size: cover;
+    }
+
+    .card-back {
+        position: absolute;
+        right: 2em;
+        top: 3em;
+    }
+
+    #card-back-number {
+        font-size: 12px;
+        top: 80px;
+        right: 45px;
+    }
+    
+    #card-number {
+        font-size: 18px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+
+    #card-logo {
+        margin-bottom: 3em;
+    }
+
+    #form {
+        width: 90%;
+        margin: auto;
+    }
+
+    #form-fields,
+    #complete {
+        margin-left: 0;
+        height: 80%;
+        width: 100%;
+    }
+
+    label {
+        margin-top: 1em;
+    }
+
+    #form-fields {
+        margin-top: 5em;
+    }
+
+    #form-fields input {
+        padding: 15px;
+    }
+
+    #confirm {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    #complete {
+        
+        margin:auto;
+    }
+
+    #continue {
+        width: 50%;
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: -10em;
+        margin-left: 5%; 
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    #card-number {
+        font-size: 12px;
+    }
+
+    .card-front,
+    .card-back {
+        width: 65%;
+    }
+}

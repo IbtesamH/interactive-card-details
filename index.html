@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | Interactive card details form</title>
+
+</head>
+<body>
+<div class="main-container">
+
+  <div id="cards">
+
+    <div id="cards-container">
+
+      <div class="card-front">
+        <!--add background in css -->
+        <img id="card-logo" src="images/card-logo.svg" alt="card logo">
+        <p id="card-number" class="large">9591 6489 6389 101E</p>
+        <div class="card-image-details">
+          <p id="card-name">Felicia Leire</p>
+          <p id="expirary-date"><span id="card-month">09</span>/<span id="card-year">00</span></p>
+        </div>
+      </div>
+
+      <div class="card-back">
+        <img id="card-back" alt="card back" src="images/bg-card-back.png">
+        <p id="card-back-number">000</p>
+      </div>
+  </div>
+
+</div>
+
+<div id="form">
+  <form id="form-fields" action="/">
+  <label for="name">Candidate Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter name" maxlength="30"><br>
+  <p class="error name-error">Invalid input</p>
+  <label for="number">Card Number:</label><br>
+  <input type="text" id="number" name="number" placeholder="0000 0000 0000 0000" maxlength="16"><br>
+  <p class="error number-error">Wrong format, numbers only</p>
+
+  <div class="card-details">
+    <div class="exp-date">
+      <label for="date">Exp. date (MM/YY)</label><br>
+      <input type="text" id="month" name="month" placeholder="MM" maxlength="2">
+      <input type="text" id="year" name="year" placeholder="YY" maxlength="2">
+      <p class="error date-error">Can't be blank</p>
+    </div>
+    <div class="cvc-number">
+      <label for="cvc">CVC</label><br>
+      <input type="text" id="cvc" name="cvc" placeholder="e.g. 123" maxlength="3">
+      <p class="error cvc-error">Can't be blank</p>
+    </div>
+  </div>
+
+  <button id="confirm" type="submit">Confirm</button>
+  </form>
+
+   <!-- Completed state start -->
+  <div id="complete">
+    <img class="thank-you-image" alt="thank you image" src="images/icon-complete.svg">
+    <p class="large thanks">Thank you</p>
+    <p id="message">We've added your card details</p>
+    <button id="continue">Continue</button>
+  </div>
+</div>
+
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ibtesam Hussain</a>.
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
