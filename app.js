@@ -207,7 +207,7 @@ function validateCvc() {
     else if(!formcvc.value.match(numbers)) {
         cvcError.innerHTML = "Wrong format, numbers only";
         cvcError.style.visibility = "visible";
-        formcvcr.style.borderColor = "hsl(0, 100%, 66%)";
+        formcvc.style.borderColor = "hsl(0, 100%, 66%)";
         problem = true;
     }
     else {
