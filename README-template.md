@@ -12,11 +12,8 @@ This is a solution to the [Interactive card details form challenge on Frontend M
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -55,33 +52,28 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This is my first project where I incorporated a substantial amount of javascript. It hepled me better understand how functions work and are invoked and how cthe flow of the code executes.
 
-To see how you can add code snippets, see below:
+for example:
+```
+function handleSubmit(e) {
+    e.preventDefault();
+    success = 0;
+    validateName();
+    validateNumber();
+    validateDate();
+    validateCvc();
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+    if(success == 4) {
+        form.style.display = "none";
+        completeContainer.style.display = "block";
+    }
 }
 ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+I look forward to further developing my understanding of javascript by incorporating other more advanced features of the language, such as objects.
 
 ## Author
 
