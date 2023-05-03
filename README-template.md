@@ -38,8 +38,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/IbtesamH/interactive-card-details.git
+- Live Site URL: https://ibtesamh.github.io/interactive-card-details/
+
 
 ## My process
 
@@ -78,6 +79,6 @@ I look forward to further developing my understanding of javascript by incorpora
 ## Author
 
 - Website - [Ibtesam Hussain](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - https://www.frontendmentor.io/profile/IbtesamH
 
 
